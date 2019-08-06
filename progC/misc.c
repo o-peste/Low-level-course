@@ -6,4 +6,6 @@ int main(){
     printf("%d\n",a);
     a = 1 > 2 ? 1:2;
     printf("%d\n",a);
+    int *c;
+    c = &a;
 }
